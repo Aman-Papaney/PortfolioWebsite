@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    font-family: "Roboto";
+}
+
+.App {
+    height: 100px;
+    text-align: center;
+}
+
+#header a {
+    color: white;
+    font-size: 16px;
+}
+
+#particles canvas {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+    width: 100%;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+
+div#main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+section {
+    position: relative;
+    width: 100vw;
+}
+
+section.min-height {
+    min-height: 100vh;
+}
+
+section.padding {
+    padding: 4rem 0;
+}
+
+section img.background {
+    height: 100%;
+    left: 50%;
+    object-fit: cover;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, 0);
+    width: 100vmax;
+    z-index: -1;
+}
+
+h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 7rem;
+    font-weight: 400;
+    line-height: 0.8;
+    margin: 0;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 0.5rem;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+p.large {
+    font-size: 24px;
+}
+
+p.small {
+    font-size: 15px;
+}
+
+hr {
+    margin: 2.5rem;
+}
+
+li {
+    line-height: 1.7;
+}
+
+li::marker {
+    color: #4e567e;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4e567e;
+}
+
+.container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 330px 300px;
+    margin: 20px auto;
+}
+
+/* .container .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 30%;
+    padding: 24px 16px;
+    text-align: center;
+} */
+
+img.socialIcon {
+    height: 30px;
+    width: 30px;
+}
+
+.ProjectsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ProjectsContainer > div {
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    margin: 0px 30px;
+    padding: 20px;
+    max-width: 26%;
+}
+.ProjectsContainer > div:hover {
+    box-shadow: 0px 0px 27px -11px rgba(0, 0, 0, 0.36);
+}
+
+.desc {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 1110px) {
+    .ProjectsContainer {
+        display: flex;
+        flex-direction: column;
+        min-width: 80%;
+        flex-wrap: wrap;
+    }
+
+ 
+}
