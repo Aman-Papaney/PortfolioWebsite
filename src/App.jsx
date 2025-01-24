@@ -1,13 +1,13 @@
 import React from "react"
 
-import About from "./Components/About"
-import Footer from "./Components/Footer"
-import Header from "./Components/Header"
-import Home from "./Components/Home"
-import Portfolio from "./Components/Portfolio"
+import About from "./components/About"
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+import Home from "./components/Home"
+import Portfolio from "./components/Portfolio"
 
 import "./App.css"
-import ParticlesComponent from "./Components/Particles"
+import ParticlesComponent from "./components/Particles"
 
 const siteProps = {
 	name: "Aman Papaney",
